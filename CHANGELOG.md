@@ -4,6 +4,24 @@ All notable changes to `phil/ux-kit-shadcn` will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com/) principles.
 
+## 0.2.0-alpha - 2026-11-24
+
+### Added
+
+- The recipes `ThemeSwitcher` and its `Script`, `StickyHeader`, `Timeline` and `FloatingLabel`, under the names,
+  props, blocks and Stimulus controllers of the PHIL UX kit, the controllers `theme-switcher` and `sticky-header` the
+  same files, written in Tailwind with the Shadcn kit's tokens and `data-slot` markers: the switcher's options styled
+  as the kit's toggles, the header's scroll padding set on the root through `--phil-sticky-header-size`, its slide
+  turned off under `motion-reduce`, the markers of the timeline in the colour of the text under forced colours.
+
+### Changed
+
+- `ComingSoon` keeps its illustration at least 40 % of the screen's height in `svh`, which stays put while the bars of
+  a phone's browser come and go.
+- The browser suite audits with axe-core 4.14.1.
+- The development requirements ask for the latest minor of each dependency (`twig/twig` 3.31,
+  `symfony/ux-twig-component` 3.8, `symfony/ux-toolkit` 3.8, `twig/extra-bundle` 3.31, …).
+
 ## 0.1.0-alpha - 2026-11-14
 
 ### Added
