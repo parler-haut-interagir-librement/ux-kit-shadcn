@@ -4,6 +4,22 @@ All notable changes to `phil/ux-kit-shadcn` will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com/) principles.
 
+## 0.3.0-alpha - 2026-11-25
+
+### Added
+
+- On `Celebration`, as in the PHIL UX kit: `messages`, words said in turn; `focus`, what the spotlight lights and where
+  the trophy lands; the nine effects `lasers`, `balloons`, `shooting-stars`, `streamers`, `coins`, `bubbles`, `aurora`,
+  `spotlight` and `trophy`; the choice of each person, `data-celebrations`, and the fatigue of a session; the colours
+  read again with the theme; the worker that paints on an `OffscreenCanvas`; the `<turbo-stream action="celebrate">`
+  that `celebrate()` of phil/ux-kit writes. The controller `celebration` and the modules beside it,
+  `celebration_effects.js` and `celebration_worker.js`, are those of the PHIL UX kit.
+
+### Changed
+
+- The development requirements take `twig/twig` and `twig/html-extra` 3.31.1 or later, which fixes the advisories of its
+  sandbox published on 2026-11-24.
+
 ## 0.2.0-alpha - 2026-11-24
 
 ### Added
